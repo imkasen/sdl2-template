@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "D:/mingw64/bin/g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+                "-I${workspaceFolder}/SDL2/include/SDL2",
+                "-L${workspaceFolder}/SDL2/lib",
+                "-Wall",
+                "-std=c++17",
+                "-lmingw32",
+                "-lSDL2main",
+                "-lSDL2"
+            ],
+            "options": {
+                "cwd": "D:/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
