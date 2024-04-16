@@ -1,12 +1,13 @@
 # SDL2 Template
 
-Windows + MingGW64 + VS Code + C/C++ Extension
+Windows + MinGW64 + VS Code + C/C++ Extension
 
 ## Structure
 
 ``` txt
 .vscode/
   c_cpp_properties.json
+  launch.json
   tasks.json
 SDL2/
   bin/
