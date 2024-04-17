@@ -9,7 +9,7 @@
                 "${file}",
                 "-o",
                 "${workspaceFolder}/${fileBasenameNoExtension}.exe",
-                "-I${workspaceFolder}/SDL2/include/SDL2",
+                "-I${workspaceFolder}/SDL2/include/**",
                 "-L${workspaceFolder}/SDL2/lib",
                 "-Wall",
                 "-std=c++17",
