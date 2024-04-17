@@ -1,0 +1,6 @@
+{
+    // clangd Extension
+    "clangd.arguments": [
+        "--include-dir=${workspaceFolder}/SDL2/include/**",
+    ],
+}
